@@ -2,13 +2,29 @@
   text-align: center;
 }
 
-.navbar {
+.navbar, .contactFooter {
   display: flex;
   flex-direction: row;
 }
 
+.contactFooter {
+  padding-left: 70%;
+}
+
 .navbar h3 {
   margin-left: 2%;
+}
+
+.contactFooter ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.contactFooter ul li {
+  margin-left: 5%;
+  list-style: none;
+  margin-bottom: 3%;
 }
 
 .navbar ul {
