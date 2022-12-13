@@ -2,6 +2,40 @@
   text-align: center;
 }
 
+.navbar, .contactFooter {
+  display: flex;
+  flex-direction: row;
+}
+
+.contactFooter {
+  padding-left: 70%;
+}
+
+.navbar h3 {
+  margin-left: 2%;
+}
+
+.contactFooter ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.contactFooter ul li {
+  margin-left: 5%;
+  list-style: none;
+  margin-bottom: 3%;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 25%;
+  position: relative;
+  left: 55%;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

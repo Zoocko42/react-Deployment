@@ -1,9 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
+// Imported pages and components
+import Nav from './components/Nav';
+import Footer from './components/Footer'
 function App() {
   return (
     <div className="App">
+      <Router>
+        <Nav></Nav>
+        <Footer></Footer>
+      </Router>
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
