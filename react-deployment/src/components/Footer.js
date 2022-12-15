@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function Footer () {
     return (
-        <div className='contactFooter'>
-            <h3>Contact Me!</h3>
+        <footer className='contactFooter'>
+            <h3 id='footHead'>Contact Me!</h3>
             <ul>
                 <li>
                     <a target="_blank" href="https://www.facebook.com/zac.schneider2/">Facebook</a>
@@ -18,6 +18,6 @@ export default function Footer () {
                     <a target="_blank" href="mailto: thezammin@gmail.com">Email</a>
                 </li>
             </ul>
-        </div>
+        </footer>
     );
 }

@@ -2,13 +2,14 @@
   text-align: center;
 }
 
-.navbar, .contactFooter {
+.navbar{
   display: flex;
   flex-direction: row;
 }
 
 .contactFooter {
   padding-left: 70%;
+  margin: 2%;
 }
 
 .navbar h3 {
@@ -36,16 +37,24 @@
   left: 55%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#workArticle {
+  margin: 2%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#aboutArticle {
+  margin: 2%;
+  text-align: left;
 }
+
+#aboutHead, #workHead, #footHead {
+  text-align: right;
+}
+
+#aboutParag {
+
+}
+
+
 
 .App-header {
   background-color: #282c34;
@@ -60,13 +69,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
