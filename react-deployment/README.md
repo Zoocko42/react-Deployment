@@ -5,6 +5,8 @@ Site foundation bootstrapped with [Create React App](https://github.com/facebook
 
 Logo created using [Canva.com](https://www.canva.com/).
 
+Thanks to the GA Tech full-stack flex coding bootcamp and W3schools for coding tips!
+
 ### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)

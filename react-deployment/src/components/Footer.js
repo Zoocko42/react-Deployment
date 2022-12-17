@@ -3,7 +3,6 @@ import React from 'react';
 export default function Footer () {
     return (
         <footer className='contactFooter'>
-            <h3 id='footHead'>Contact Me!</h3>
             <ul>
                 <li>
                     <a target="_blank" href="https://www.facebook.com/zac.schneider2/">Facebook</a>
