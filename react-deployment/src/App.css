@@ -43,28 +43,8 @@ a, a:visited {
   text-shadow: #ffffff 1px 0 1px;
 }
 
-.contactFooter {
-  border-bottom: solid;
-  background-color: #4867a3;
-  color: white;
-  position: fixed;
-  z-index: 1;
-  top: 91%;
-  width: 100%;
-}
-
 .navbar h3 {
   margin-left: 2%;
-}
-
-.contactFooter ul{
-  display: flex;
-  justify-content: space-around;
-}
-
-.contactFooter ul li {
-  list-style: none;
-  margin-bottom: 1%;
 }
 
 .navbar ul {
@@ -90,6 +70,7 @@ a, a:visited {
 #aboutArticle img {
   border-radius: 50%;
   float: left;
+  margin-right: 2%;
 }
 
 #aboutHead, #workHead{
