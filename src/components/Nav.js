@@ -19,6 +19,9 @@ export default function Nav () {
                 <li>
                     <a target="_blank" href="mailto: thezammin@gmail.com">Email</a>
                 </li>
+                <li>
+                    <a target="_blank" href="https://github.com/Zoocko42">Github</a>
+                </li>
             </ul>
         </nav>
     );

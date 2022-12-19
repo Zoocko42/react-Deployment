@@ -12,7 +12,7 @@ export default function AboutMe() {
             coding; any technology that will do the job best is the one I prefer to use. As a result I am also a quick study of 
             new or required tech for any position.</p>
             <br></br>
-            <p>In addition to my coding work I also co-host the podcast, "Nerd $hit!" along with Sam Wilson
+            <p>In addition to my coding work I also co-host the podcast, <a target="_blank" href='https://linktr.ee/thenerdshitpod'>"Nerd $hit!"</a> along with Sam Wilson
             and Lyz Tory
             </p>
         </article>
