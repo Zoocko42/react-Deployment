@@ -11,9 +11,6 @@ export default function Nav () {
                     <a target="_blank" href="https://www.facebook.com/zac.schneider2/">Facebook</a>
                 </li>
                 <li>
-                    <a target="_blank" href="https://twitter.com/ZachariahSchne4">Twitter</a>
-                </li>
-                <li>
                     <a target="_blank" href="https://www.linkedin.com/in/zachariah-schneider-a292214b/">LinkedIn</a>
                 </li>
                 <li>
