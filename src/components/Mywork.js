@@ -1,5 +1,6 @@
 import React from 'react';
 import habHotLogo from './assets/Habitation Hotspot-1.jpg';
+import austinRiverscape from './assets/mj-tangonan-wKfTNWaDYgs-unsplash.jpg'
 
 export default function MyWork() {
     return(
@@ -8,7 +9,7 @@ export default function MyWork() {
 
             <div id='habHotspotCard' className='card'>
                 <a href='https://habitationhotspot.com/' target="_blank">
-                    <img src={habHotLogo}></img>
+                    <img src={austinRiverscape}></img>
                 </a>
                 <div className='container'>
                     <h3>Habitation Hotspot</h3>
