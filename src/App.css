@@ -9,9 +9,14 @@
   position: relative;
   left: 30%;
   margin-bottom: 10%;
-  background-color: #4867a3;
+  background-color: #793C26;
   color: white;
   border-radius: 2%;
+
+}
+
+.card h3 {
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 .card img {
@@ -24,7 +29,7 @@
 }
 
 .container {
-  padding: 5px 16px;
+  padding: 5px 16px 15px;
 }
 
 .navbar{
@@ -43,24 +48,35 @@ a, a:visited {
   text-decoration: none;
   color: #c9ced8;
   text-shadow: #ffffff 1px 0 1px;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+p {
+  font-family: 'Exo 2', sans-serif;
 }
 
 #aboutArticle a, #aboutArticle a:visited {
   color: #0e2f70;
+  font-family: 'Exo 2', sans-serif;
 }
 
 .navbar h3 {
   margin-left: 2%;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: x-large;
 }
 
 .navbar ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 25%;
   position: relative;
-  left: 55%;
+  left: 50%;
   list-style-type: none;
+  font-family: 'Julius Sans One', sans-serif;
+  align-items: center;
+  font-size: larger;
 }
 
 #workArticle {
@@ -69,7 +85,7 @@ a, a:visited {
 
 #aboutArticle {
   margin: 2%;
-  margin-top: 6%;
+  margin-top: 7%;
   text-align: justify;
 }
 
@@ -81,6 +97,8 @@ a, a:visited {
 
 #aboutHead, #workHead{
   text-align: right;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: bolder;
 }
 
 .App-header {
